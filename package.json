@@ -1,0 +1,24 @@
+{
+  "name": "videouploader",
+  "version": "1.0.0",
+  "description": "Video Uploader to Wistia",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-deps": "bower install",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petrican/videouploader.git"
+  },
+  "keywords": [
+    "Video",
+    "Uploader",
+    "Wistia"
+  ],
+  "author": "Petrica Nanca",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/petrican/videouploader/issues"
+  },
+  "homepage": "https://github.com/petrican/videouploader#readme"
+}
