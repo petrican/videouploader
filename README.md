@@ -17,6 +17,7 @@ git clone https://github.com/petrican/videouploader
 cd videouploader
 
 Install dependencies:
+
 yarn install
 
 Update the  videouploader/app/upload-videos/upload-videos.component.js
