@@ -15,6 +15,7 @@ describe('uploadVideos', function() {
         controller = $componentController('uploadVideos', {$scope: myScope});
     }));
 
+
     describe('uploaderController', function(){
         it('component controller should be defined', function() {
             expect(controller).toBeDefined();
