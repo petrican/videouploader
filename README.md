@@ -35,4 +35,11 @@ https://www.nanca.ro/videouploader/
 
 
 
+# Testing
+
+To perform the testing run
+
+yarn test
+
+
 
