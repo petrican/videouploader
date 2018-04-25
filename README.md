@@ -19,6 +19,10 @@ cd videouploader
 Install dependencies:
 yarn install
 
+Update the  videouploader/app/upload-videos/upload-videos.component.js
+
+with your own Wistia key
+
 Access in the browser http://www.yourdomain.com/videouploader
 (suppose you put it in the root of the webserver)
 
