@@ -9,3 +9,19 @@ How it works
 * The component uses Angular 1.
 * The component uses use ES5.
 
+# Installation
+Clone repo and put the folder somewhere in a path of your server
+
+git clone https://github.com/petrican/videouploader
+
+cd videouploader
+
+Install dependencies:
+yarn install
+
+Access in the browser http://www.yourdomain.com/videouploader
+(suppose you put it in the root of the webserver)
+
+# Sample demo
+
+
