@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Video Uploader</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/upload-videos/upload-videos.module.js"></script>
+    <script src="app/upload-videos/upload-videos.component.js"></script>
+</head>
+<body>
+
+<div ng-app="uploadApp">
+    <!-- Custom upload component -->
+    <upload-videos></upload-videos>
+</div>
+
+</body>
+</html>
