@@ -20,6 +20,8 @@ Install dependencies:
 
 yarn install
 
+(I suppose you have yarn. If you don't pls go ahead and get it from here first https://yarnpkg.com/lang/en/docs/install)
+
 Update the  videouploader/app/upload-videos/upload-videos.component.js
 
 with your own Wistia key
