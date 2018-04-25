@@ -1,9 +1,14 @@
 'use strict';
 
-describe('uploadVideos', function(){
+describe('uploadVideos', function() {
     var controller;
     var myScope;
-    beforeEach(angular.mock.module('uploadApp'));
+
+
+    beforeEach(function(){
+        angular.mock.module('uploadApp');
+    });
+
 
     beforeEach(inject(function ($compile, $rootScope, $componentController) {
         myScope = $rootScope.$new();
@@ -40,4 +45,5 @@ describe('uploadVideos', function(){
             expect(myScope.cssprogress.background).toEqual('#ff7400');
         });
     });
+
 });
