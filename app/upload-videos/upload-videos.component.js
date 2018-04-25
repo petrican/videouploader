@@ -22,7 +22,7 @@ component('uploadVideos', {
           '<div class="row" id="video-container">' +
        '</div>' +
     '</div>',
-    controller: function UploadController($scope) {
+    controller: function uploadController($scope) {
         $scope.title       = 'AngularJS - Component Upload videos to Wistia';
         $scope.message     = '';
         var urlWistia      = 'https://upload.wistia.com/?api_password=';
