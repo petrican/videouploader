@@ -34,7 +34,6 @@ Access in the browser http://www.yourdomain.com/videouploader
 https://www.nanca.ro/videouploader/
 
 
-
 # Testing
 
 To perform the testing run
